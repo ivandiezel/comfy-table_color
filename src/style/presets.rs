@@ -93,7 +93,7 @@ pub const ASCII_MARKDOWN: &str = "||  |-|||           ";
 /// │ c     ┆ d     │
 /// └───────┴───────┘
 /// ```
-pub const UTF8_FULL: &str = "\x1b[33m││──╞═╪╡┆╌┼├┤┬┴┌┐└┘\x1b[0m";
+pub const UTF8_FULL: &str = "\x1b[33m│\x1b[33m│\x1b[33m─\x1b[33m─\x1b[33m╞\x1b[33m═\x1b[33m╪\x1b[33m╡\x1b[33m┆\x1b[33m╌\x1b[33m┼\x1b[33m├\x1b[33m┤\x1b[33m┬\x1b[33m┴\x1b[33m┌\x1b[33m┐\x1b[33m└\x1b[33m┘\x1b[33m\x1b[0m";
 
 /// Default UTF8 style, but without dividers between rows.
 ///
